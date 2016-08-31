@@ -8,3 +8,7 @@ To install it:
 2) Install EsLint globally
 3) Install overcommit
 4) Add lint rules for technologies that you are using
+
+### Issues: ###
+
+Rule for "import/no-extraneous-dependencies": "off" is temporary solution; remofe it when [this](https://github.com/clayne11/eslint-import-resolver-meteor/issues/11) issue will be closed
