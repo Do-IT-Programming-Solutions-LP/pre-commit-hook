@@ -1,0 +1,5 @@
+### Intellij ###
+.idea/*
+
+### NODE ###
+node_modules/

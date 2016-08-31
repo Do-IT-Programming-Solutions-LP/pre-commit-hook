@@ -1,0 +1,7 @@
+PreCommit:
+  EsLint:
+    required_executable: 'npm'
+    command: ['npm', 'run', 'lint', '--', '-f', 'compact']
+    enabled: true
+  AuthorName:
+    enabled: false

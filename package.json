@@ -1,0 +1,34 @@
+{
+  "name": "pre-commit-hook",
+  "private": true,
+  "scripts": {
+    "iso": "semistandard --fix",
+    "lint": "npm run iso; eslint . --fix"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-config-semistandard": "^7.0.0-beta.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-react": "^6.2.0",
+    "eslint-plugin-standard": "^2.0.0",
+    "semistandard": "^8.0.0"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "allowImportExportEverywhere": true
+    },
+    "plugins": [],
+    "extends": [
+      "airbnb",
+      "semistandard"
+    ],
+    "settings": {},
+    "rules": {}
+  }
+}
